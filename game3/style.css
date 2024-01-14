@@ -1,0 +1,71 @@
+body {
+    background: rgb(10, 10, 10);
+    background-image: url('background.png'); 
+    width: 98%;
+    display: flex; 
+    justify-content: center; 
+    align-content: center;
+    margin-top: 7%;
+}
+
+html {
+    height: 100%;
+}
+
+.form {
+    width: 100%;
+    right: 0%;
+    position: absolute;
+    top: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 70px;
+}
+
+.tutorial {
+    padding: 10px;
+    position: absolute;
+    margin-top: 7%;
+    left: 20px;
+    background-color: rgba(10, 10, 10, 0.8);
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 240px;
+    
+}
+
+.tutorial-item {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    color: white;
+}
+
+.credit {
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: 3px solid rgb(40, 40, 40);
+    border-right: 6px solid rgb(40, 40, 40);
+    border-left: 6px solid rgb(40, 40, 40);
+    border-radius: 5px;
+    background: rgb(40, 40, 40);
+}
+
+.tutorial-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}

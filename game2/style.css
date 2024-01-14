@@ -1,0 +1,14 @@
+.tutorial {
+    font-family: Arial;
+    font-size: 18px;
+    color: firebrick;
+}
+
+.header {
+    font-family: cursive;
+    text-decoration-line: underline;
+}
+
+body {
+    background-color: lightgray;
+}
